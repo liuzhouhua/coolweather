@@ -36,7 +36,7 @@ import okhttp3.Response;
 public class WeatherActivity extends AppCompatActivity {
 
     public SwipeRefreshLayout swipeRefreshLayout;
-    private String mWeatheId;
+    public String mWeatheId;
 
     public DrawerLayout drawerLayout;
     private Button navButton;

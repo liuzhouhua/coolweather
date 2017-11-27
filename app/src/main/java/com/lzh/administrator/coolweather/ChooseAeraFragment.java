@@ -95,6 +95,7 @@ public class ChooseAeraFragment extends Fragment {
                         WeatherActivity weatherActivity = (WeatherActivity) getActivity();
                         weatherActivity.drawerLayout.closeDrawers();
                         weatherActivity.swipeRefreshLayout.setRefreshing(true);
+                        weatherActivity.mWeatheId = weatherId;
                         weatherActivity.requestWeather(weatherId);
                     }
                 }
